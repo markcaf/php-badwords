@@ -41,6 +41,7 @@
         "; 
 
         $badword = $_GET['badword'];
+        $censoredParagraph = str_replace($badword, '***', $paragraph);
     ?>
 
     <h3>
