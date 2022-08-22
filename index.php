@@ -39,7 +39,11 @@
         - Dove? <br>
         - Nelle tue cantine. <br>
         "; 
-        echo $paragraph;
     ?>
+    <p>
+        <?php 
+            echo $paragraph;
+        ?>
+    </p>
 </body>
 </html>
