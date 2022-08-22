@@ -39,10 +39,20 @@
         - Dove? <br>
         - Nelle tue cantine. <br>
         "; 
+
+        $badword = $_GET['badword'];
     ?>
+
+    <h3>
+        Parola censurata: 
+        <?php 
+            echo $badword;
+        ?>    
+    </h3>
+
     <p>
         <?php 
-            echo $paragraph;
+            echo $paragraph;            
         ?>
     </p>
 </body>
