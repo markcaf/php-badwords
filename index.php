@@ -53,7 +53,7 @@
 
     <p>
         <?php 
-            echo $paragraph;            
+            echo $censoredParagraph;            
         ?>
     </p>
 </body>
