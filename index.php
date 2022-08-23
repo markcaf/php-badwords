@@ -51,6 +51,13 @@
         ?>    
     </h3>
 
+    <h4>
+        Lunghezza paragrafo:
+        <?php 
+            echo strlen($censoredParagraph);
+        ?>
+    </h4>
+
     <p>
         <?php 
             echo $censoredParagraph;            
